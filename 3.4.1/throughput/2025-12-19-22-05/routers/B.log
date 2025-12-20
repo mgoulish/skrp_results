@@ -1,0 +1,62 @@
+2025-12-18 14:54:23.515978 -0500 ROUTER (info) Inter-router data connections calculated at 5 
+2025-12-18 14:54:23.533313 -0500 SERVER (info) Container Name: B
+2025-12-18 14:54:23.533355 -0500 ROUTER (info) Router started in Interior mode, area=0 id=B
+2025-12-18 14:54:23.533361 -0500 ROUTER (info) Version: 0.0.0
+2025-12-18 14:54:23.533470 -0500 ROUTER_CORE (info) Streaming link scrubber: Scan interval: 30 seconds, max free pool: 128 links
+2025-12-18 14:54:23.533476 -0500 ROUTER_CORE (info) Core module enabled: streaming_link_scrubber
+2025-12-18 14:54:23.533503 -0500 ROUTER_CORE (info) Core module enabled: mobile_sync
+2025-12-18 14:54:23.533509 -0500 ROUTER_CORE (info) Stuck delivery detection: Scan interval: 30 seconds, Delivery age threshold: 10 seconds
+2025-12-18 14:54:23.533514 -0500 ROUTER_CORE (info) Core module enabled: stuck_delivery_detection
+2025-12-18 14:54:23.533518 -0500 ROUTER_CORE (info) Core module enabled: address_lookup_client
+2025-12-18 14:54:23.533530 -0500 ROUTER_CORE (info) Core module enabled: mesh_discovery_interior
+2025-12-18 14:54:23.533534 -0500 ROUTER_CORE (info) Core module present but disabled: mesh_discovery_edge
+2025-12-18 14:54:23.533540 -0500 ROUTER_CORE (info) Core module enabled: edge_addr_tracking
+2025-12-18 14:54:23.533545 -0500 ROUTER_CORE (info) Core module present but disabled: core_test_hooks
+2025-12-18 14:54:23.533550 -0500 ROUTER_CORE (info) Core module present but disabled: edge_router
+2025-12-18 14:54:23.533697 -0500 ROUTER_CORE (info) Protocol adaptor registered: amqp
+2025-12-18 14:54:23.533707 -0500 ROUTER_CORE (info) Protocol adaptor registered: tcp
+2025-12-18 14:54:23.533760 -0500 TCP_ADAPTOR (info) Router buffer memory ceiling: 251.52 GiB (66324040 buffers)
+2025-12-18 14:54:23.533829 -0500 FLOW_LOG (info) Protocol logging started
+2025-12-18 14:54:23.534109 -0500 ROUTER (info) Router Engine Instantiated: id=B instance=1766087663 max_routers=128
+2025-12-18 14:54:23.612893 -0500 ROUTER_CORE (info) Router Core thread running. 0/B
+2025-12-18 14:54:23.624977 -0500 AGENT (info) Activating management agent on $_management_internal
+2025-12-18 14:54:23.626257 -0500 POLICY (info) Policy configured maxConnections: 65535, policyDir: '',access rules enabled: 'false', use hostname patterns: 'false'
+2025-12-18 14:54:23.626709 -0500 POLICY (info) Policy fallback defaultVhost is defined: '$default'
+2025-12-18 14:54:23.626964 -0500 TCP_ADAPTOR (info) Configured TcpConnector for router-test, 127.0.0.1:5801
+2025-12-18 14:54:23.627501 -0500 CONN_MGR (info) Configured  Connector: 127.0.0.1:25000 proto=any, role=inter-router
+2025-12-18 14:54:23.627764 -0500 SERVER (info) Operational, 10 Threads Running (process ID 14072)
+2025-12-18 14:54:23.627858 -0500 ROUTER (info) Process VmSize 425.15 MiB RSS 53.39 MiB (251.52 GiB available memory)
+2025-12-18 14:54:23.633833 -0500 ROUTER_CORE (info) [C2] Connection Opened: dir=out host=127.0.0.1:25000 encrypted=no auth=ANONYMOUS user=(null) container_id=A props={:product="skupper-router", :version="0.0.0", :"qd.conn-id"=1, :"qd.access-id"="kWN0v:2", :"qd.annotations-version"=2}
+2025-12-18 14:54:23.712870 -0500 ROUTER_CORE (info) [C7] Connection Opened: dir=out host=127.0.0.1:25000 encrypted=no auth=ANONYMOUS user=(null) container_id=A props={:product="skupper-router", :version="0.0.0", :"qd.conn-id"=6, :"qd.access-id"="kWN0v:2", :"qd.annotations-version"=2}
+2025-12-18 14:54:23.712911 -0500 ROUTER_CORE (info) [C5] Connection Opened: dir=out host=127.0.0.1:25000 encrypted=no auth=ANONYMOUS user=(null) container_id=A props={:product="skupper-router", :version="0.0.0", :"qd.conn-id"=4, :"qd.access-id"="kWN0v:2", :"qd.annotations-version"=2}
+2025-12-18 14:54:23.712930 -0500 ROUTER_CORE (info) [C3] Connection Opened: dir=out host=127.0.0.1:25000 encrypted=no auth=ANONYMOUS user=(null) container_id=A props={:product="skupper-router", :version="0.0.0", :"qd.conn-id"=3, :"qd.access-id"="kWN0v:2", :"qd.annotations-version"=2}
+2025-12-18 14:54:23.713263 -0500 ROUTER_CORE (info) [C4] Connection Opened: dir=out host=127.0.0.1:25000 encrypted=no auth=ANONYMOUS user=(null) container_id=A props={:product="skupper-router", :version="0.0.0", :"qd.conn-id"=2, :"qd.access-id"="kWN0v:2", :"qd.annotations-version"=2}
+2025-12-18 14:54:23.713342 -0500 ROUTER_CORE (info) [C6] Connection Opened: dir=out host=127.0.0.1:25000 encrypted=no auth=ANONYMOUS user=(null) container_id=A props={:product="skupper-router", :version="0.0.0", :"qd.conn-id"=5, :"qd.access-id"="kWN0v:2", :"qd.annotations-version"=2}
+2025-12-18 14:54:25.534047 -0500 FLOW_LOG (info) ROUTER [jx12v:0] BEGIN mode=interior hostname=Brontonomicon name=0/B buildVersion=0.0.0
+2025-12-18 14:54:25.535383 -0500 ROUTER_LS (info) Computed next hops: {'A': 'A'}
+2025-12-18 14:54:25.539034 -0500 ROUTER_LS (info) Computed costs: {'A': 1}
+2025-12-18 14:54:25.539069 -0500 ROUTER_LS (info) Computed valid origins: {'A': []}
+2025-12-18 14:54:25.539094 -0500 ROUTER_LS (info) Computed radius: 1
+2025-12-18 14:54:26.539197 -0500 ROUTER_LS (info) Computed next hops: {'A': 'A'}
+2025-12-18 14:54:26.539270 -0500 ROUTER_LS (info) Computed costs: {'A': 1}
+2025-12-18 14:54:26.539304 -0500 ROUTER_LS (info) Computed valid origins: {'A': []}
+2025-12-18 14:54:26.539329 -0500 ROUTER_LS (info) Computed radius: 1
+2025-12-18 14:58:43.550560 -0500 ROUTER (info) Shut Down
+2025-12-18 14:58:43.564157 -0500 ROUTER_CORE (info) Router Core thread exited
+2025-12-18 14:58:43.564264 -0500 TCP_ADAPTOR (info) Shutting down TCP protocol adaptor
+2025-12-18 14:58:43.564285 -0500 TCP_ADAPTOR (info) Deleted TcpConnector for router-test, 127.0.0.1:5801
+2025-12-18 14:58:43.564295 -0500 SERVER (info) [C2] Closing connection on shutdown
+2025-12-18 14:58:43.564315 -0500 SERVER (info) [C3] Closing connection on shutdown
+2025-12-18 14:58:43.564323 -0500 SERVER (info) [C4] Closing connection on shutdown
+2025-12-18 14:58:43.564336 -0500 SERVER (info) [C5] Closing connection on shutdown
+2025-12-18 14:58:43.564344 -0500 SERVER (info) [C6] Closing connection on shutdown
+2025-12-18 14:58:43.564351 -0500 SERVER (info) [C7] Closing connection on shutdown
+2025-12-18 14:58:43.564392 -0500 FLOW_LOG (info) LINK [jx12v:2] BEGIN END parent=jx12v:0 peer=kWN0v:2 protocol=amqp destPort=25000 octets=57793 name=connectorToA linkCost=1 operStatus=up role=inter-router upTimeStamp=1766087663712887 downCount=0 octetsReverse=61752
+2025-12-18 14:58:43.564409 -0500 FLOW_LOG (info) CONNECTOR [jx12v:1] BEGIN END parent=jx12v:0 destHost=127.0.0.1 protocol=tcp destPort=5801 vanAddress=router-test name=tcpConnector/127.0.0.1:5801 flowCountL4=67
+2025-12-18 14:58:43.564417 -0500 FLOW_LOG (info) Protocol logging completed
+2025-12-18 14:58:43.564507 -0500 ROUTER_CORE (info) Finalizing core module: edge_addr_tracking
+2025-12-18 14:58:43.564515 -0500 ROUTER_CORE (info) Finalizing core module: mesh_discovery_interior
+2025-12-18 14:58:43.564521 -0500 ROUTER_CORE (info) Finalizing core module: address_lookup_client
+2025-12-18 14:58:43.564526 -0500 ROUTER_CORE (info) Finalizing core module: stuck_delivery_detection
+2025-12-18 14:58:43.564532 -0500 ROUTER_CORE (info) Finalizing core module: mobile_sync
+2025-12-18 14:58:43.564538 -0500 ROUTER_CORE (info) Finalizing core module: streaming_link_scrubber

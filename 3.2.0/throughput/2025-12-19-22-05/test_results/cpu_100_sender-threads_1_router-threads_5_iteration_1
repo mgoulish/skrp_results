@@ -1,0 +1,24 @@
+Connecting to host 127.0.0.1, port 5800
+[  5] local 127.0.0.1 port 46748 connected to 127.0.0.1 port 5800
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   523 MBytes  4.39 Gbits/sec    0   2.69 MBytes       
+[  5]   1.00-2.00   sec   496 MBytes  4.16 Gbits/sec    0   2.69 MBytes       
+[  5]   2.00-3.00   sec   491 MBytes  4.12 Gbits/sec    0   2.69 MBytes       
+[  5]   3.00-4.00   sec   506 MBytes  4.25 Gbits/sec    1   2.69 MBytes       
+[  5]   4.00-5.00   sec   505 MBytes  4.23 Gbits/sec    1   2.69 MBytes       
+[  5]   5.00-6.00   sec   504 MBytes  4.23 Gbits/sec    0   2.69 MBytes       
+[  5]   6.00-7.00   sec   511 MBytes  4.28 Gbits/sec    0   2.69 MBytes       
+[  5]   7.00-8.00   sec   514 MBytes  4.31 Gbits/sec    1   2.69 MBytes       
+[  5]   8.00-9.00   sec   496 MBytes  4.16 Gbits/sec    0   2.69 MBytes       
+[  5]   9.00-10.00  sec   504 MBytes  4.22 Gbits/sec    0   2.69 MBytes       
+[  5]  10.00-11.00  sec   515 MBytes  4.32 Gbits/sec    0   2.69 MBytes       
+[  5]  11.00-12.00  sec   489 MBytes  4.10 Gbits/sec    0   2.69 MBytes       
+[  5]  12.00-13.00  sec   510 MBytes  4.28 Gbits/sec    0   2.69 MBytes       
+[  5]  13.00-14.00  sec   506 MBytes  4.25 Gbits/sec    0   2.69 MBytes       
+[  5]  14.00-15.00  sec   502 MBytes  4.21 Gbits/sec    0   2.69 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-15.00  sec  7.40 GBytes  4.24 Gbits/sec    3             sender
+[  5]   0.00-15.00  sec  7.39 GBytes  4.23 Gbits/sec                  receiver
+
+iperf Done.
